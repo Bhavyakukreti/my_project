@@ -1,0 +1,759 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    
+}
+
+#nav{
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    position: relative;
+    align-items: center;
+    
+}
+.aa{
+    margin-right: 30%;
+     
+}
+button{
+    color: black;
+    height: 100px;
+    transition: 0.6s ease;
+}
+#nav h2{
+    font-size: 21px;
+    margin-left: 50px;
+}
+.bb{
+    margin-left: 60px;
+}
+#nav button{
+    
+    font-family:     var(--bs-body-font-family);
+font-size: 20px;
+
+    letter-spacing: 5px;
+    font-weight: 700;
+    height: 80px;
+    width: 210px;
+    margin-left: 40px;
+    color:white;
+
+    background-color: black;
+    border: 3px solid grey;
+    border-radius: 500px
+}
+#nav img{
+   margin-left: 50px;
+}
+#main{
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+#main h1{
+    font-size: 130px;
+    font-weight: 900;
+    position: absolute;
+   width: 85%;
+    text-align: center;
+    top: 50px;
+    left: 120px;  
+    background: linear-gradient(120deg, #1C99FE 20.7%,  #7644FF 50.19%,#fd4766 80% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#tatti{
+    height: 50vh;
+    background-color: black;
+    display: flex;
+    
+    justify-content: space-around;
+    
+}
+
+.c{
+    height: 300px;
+    width: 500px;
+    }
+    
+ #first h2{
+    text-align: center;
+ }
+
+#first p{
+    font-size: 28px;
+    text-align: center;
+}
+#first svg{
+  position: relative;
+  left: 200px;
+  margin-bottom: 20px;
+}
+#second h2{
+    text-align: center;
+}
+#second svg{
+    position: relative;
+  left: 200px;
+  margin-bottom: 20px;
+}
+#second p{
+    font-size: 28px;
+    text-align: center;
+}
+#third h2{
+    text-align: center;
+}
+#third svg{
+    position: relative;
+  left: 200px;
+  margin-bottom: 20px;
+}
+#third p{
+    font-size: 28px;
+    text-align: center;
+}
+#main1{
+    height: 100vh;
+    width: 100%;
+    background-color: #191919;
+    display: flex;
+    position: relative;
+}
+#main1 img{
+    position: absolute;
+    left: 80px;
+    top: 70px;
+}
+#main1 h2{
+    font-size: 63px;
+    font-weight: 700;
+}
+#main1 p{
+    font-size: 25px;
+    position: absolute;
+    left: 700px;
+    top: 350px;
+   color: grey;
+
+}
+
+
+#main1 h2{
+    position: absolute;
+    left:700px ;
+    top: 170px;
+}
+#main1 h3{
+    font-size: 17px;
+    font-weight: 600;
+    position: absolute;
+    top: 650px;
+    left: 700px;
+    background: linear-gradient(120deg, #1C99FE 20.7%,  #7644FF 50.19%,#fd4766 80% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.3s all;
+}
+#main1 h3:hover{
+    
+}
+#main1 h3::after{
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background: linear-gradient(120deg, #1C99FE 20.7%,  #7644FF 50.19%,#fd4766 80% );
+    transition: width .3s ;
+}
+#main1 h3:hover::after{
+     width: 100%;
+     transition: width .3s;
+}
+.d{
+   
+   position: absolute;
+    left: 700px;
+    top: 80px;
+  height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #FD4766;
+    padding-left: 13px;
+    padding-top: 14px;
+}
+#main2{
+    height: 150vh;
+    background-color: black;
+    
+}
+.q{
+    height: 30%;
+    width: 43%;
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    left: 29%;
+    top: 12%;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.q h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+.q h3{
+    font-size: 60px;
+    font-weight: 750;
+    margin-bottom: 20px;
+}
+.q h4{
+    color: gray;
+}
+.r{
+    width: 1700px;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.tt{
+    height: 350px;
+    width: 470px;
+    background-color:#0c0c0c;;
+    border-radius: 3%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 40px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+#zz p{
+  font-size: 27px;
+  color: grey;
+}
+#yy p{
+    font-size: 27px;
+    color: grey;
+}
+#xx p{
+    font-size: 27px;
+    color: grey;
+}
+#ww p{
+   font-size: 27px;
+   color: grey;
+}
+#vv p{
+    font-size: 27px;
+    color: grey;
+}
+#uu p{
+    font-size: 27px;
+    color: grey;
+}
+
+#btn:hover{
+ 
+  transition: 0.6s ease all  ;
+  background-color: #fd4766;
+  
+}
+#main3{
+    height: 150vh;
+    background-color: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+#main3 h3{
+    margin-top: 150px;
+    font-size: 20px;
+    font-weight: 700;
+    background: linear-gradient(120deg, #1C99FE 20.7%,  #7644FF 50.19%,#fd4766 80% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#main3 h2{
+    font-size: 60px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#main3 p{
+    font-size: 25px;
+    color: grey;
+    padding-bottom: 50px;
+}
+#chotha{
+    display: flex;
+    gap: 40px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+.poop{
+      height: 75vh;
+      width: 480px;
+      border-radius: 3%;
+      filter: brightness(60%);
+     
+}
+#pehla{
+    background-image: url("http://rainbowit.net/html/imroz/assets/images/portfolio/portfolio-8.jpg");
+    background-size: cover;
+}
+
+#dusra{
+    background-image: url("http://rainbowit.net/html/imroz/assets/images/portfolio/portfolio-9.jpg");
+    background-size: cover;   
+}
+#teesra{
+    background-image: url("http://rainbowit.net/html/imroz/assets/images/portfolio/portfolio-10.jpg");
+    background-size: cover;
+}
+#pehla h4{
+    font-size: 22px;
+   color: white;
+   z-index: 100;
+   position: relative;
+   top: 450px;
+   right: 140px;
+}
+#pehla h5{
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    top: 460px;
+    right: 92px;
+    z-index: 100;
+}
+#dusra h4{
+    font-size: 22px;
+    color: white;
+    z-index: 10;
+    position: relative;
+    top: 450px;
+    right: 130px;
+}
+#dusra h5{
+    
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    top: 460px;
+    right: 40px;
+}
+#teesra h4{
+    font-size: 22px;
+    color: white;
+    z-index: 10;
+    position: relative;
+    top: 450px;
+    right: 150px;
+}
+#teesra h5{
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    top: 460px;
+    right: 40px;
+}
+#main4{
+    height: 105vh;
+    background-color:#0c0c0c;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+  
+}
+#main4 h2{
+    font-size: 22px;
+    margin-top: 140px;
+    background: linear-gradient(120deg, #1C99FE 20.7%,  #7644FF 50.19%,#fd4766 80% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#main4 h3{
+    font-size: 65px;
+    padding-bottom: 18px;
+    font-weight: 700;
+}
+#main4 p{
+    font-size: 25px;
+    color: rgba(198, 201, 216, 0.75);
+    font-weight: 400;
+    padding: 5px;
+    margin-bottom: 80px;
+}
+.tt:hover{
+   top: -10px;
+}
+#meruem{
+    display: flex;
+    gap: 50px;
+   
+}
+.tat{
+    height: 320px;
+    width: 350px;
+    background-color: black;
+   border-radius: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.tat h4{
+     font-size: 60px;
+     font-weight: 700;
+     padding-top: 25px;
+     padding-bottom: 10px;
+}
+.tat h5{
+    font-size: 22px;
+    color: grey
+}
+#fifth{
+    height: 105vh;
+    background-color: #191919;
+}
+ 
+#sixth{
+    height: 140vh;
+    background-color: #0c0c0c;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+#sixth h2{
+    margin-top: 150px;
+    font-size: 20px;
+    background: linear-gradient(120deg, #1C99FE 20.7%,  #7644FF 50.19%,#fd4766 80% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#sixth h3{
+    font-size: 70px;
+}
+#sixth p{
+    font-size: 25px;
+    color: grey;
+    padding-bottom: 50px;
+}
+#guu{
+    display: flex;
+    gap: 30px;
+}
+#guu .eeee{
+    height: 82vh;
+    width: 500px;
+    border-radius: 3%;
+    filter: brightness(80%);
+
+}
+#guu #ek{
+    background-image: url("http://rainbowit.net/html/imroz/assets/images/blog/blog-01.jpg");
+    background-size: cover;
+    
+}
+#guu #ek:hover{
+    
+}
+#guu #do{
+    background-image: url("http://rainbowit.net/html/imroz/assets/images/blog/blog-02.jpg");
+    background-size: cover;
+}
+
+#guu #teen{
+    background-image: url("http://rainbowit.net/html/imroz/assets/images/blog/blog-03.jpg");
+    background-size: cover;
+}
+
+
+.eeee{
+    position: relative;
+}
+
+#guu .eeee h3{
+    font-size: 23px;
+    position: absolute;
+    top: 500px;
+    left: 40px;
+}
+#guu .eeee p{
+    font-size: 30px;
+    color:#ffffff;
+    text-align: left;
+    position: relative;
+    top: 550px;
+    left: 40px;
+}
+#seventh{
+    height: 105vh;
+    background-color: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#seventh h4{
+font-size: 22px;
+padding-top: 150px;
+background: linear-gradient(120deg, #1C99FE 20.7%,  #7644FF 50.19%,#fd4766 80% );
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+#seventh h5{
+    font-size: 70px;
+    padding-bottom: 70px;
+}
+#seventh img{
+    margin-right: 60px;
+}
+#ichibe{
+    display: flex;
+}
+#eighth{
+    height: 105vh;
+    background-color: #0c0c0c;
+    position: relative;
+    
+}
+#eighth h4{
+    font-size: 50px;
+    font-weight: 700;
+   
+    position: relative;
+    top: 80px;
+    left: 70px;
+}
+#eighth button{
+    width: 330px;
+    border-radius: 200px;
+    background-color: #0c0c0c;
+    border: 3px solid grey;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    position: absolute;
+    top: 80px;
+    left: 1250px;
+}
+#eighth button:hover{
+    
+     background-color: #FD4766;
+}
+.qwe{
+    position: relative;
+    top: 220px;
+    left: 60px;
+   
+}
+#eighth p{
+    position: relative;
+    top: 350px;
+    right: 80px;
+    font-size: 24px;
+    color: grey;
+}
+#aizen{
+    position: relative;
+    
+}
+
+#aizen h2{
+    font-size: 27px;
+    position: relative;
+    left: 100px;
+    top: 220px;
+    padding-bottom: 30px;
+    transition: 0.3s all;
+}
+#aizen h3{
+    position: relative;
+    left:100px ;
+    top: 220px;
+    font-size: 20px;
+    padding-bottom: 30px;
+    color: grey;
+    transition: 0.3s all
+}
+
+#aizen h3:hover{
+   color: #FD4766;
+}
+#aizen h3::after{
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background: linear-gradient(120deg, #1C99FE 20.7%,  #7644FF 50.19%,#fd4766 80% );
+    transition: width .3s ;
+}
+#aizen h3:hover::after{
+     width: 100%;
+     transition: width .3s;
+}
+
+#ichigo{
+    position:relative ;
+}
+#ichigo h2{
+    font-size: 27px;
+    position: relative;
+    left: 250px;
+    top: 220px;
+    padding-bottom: 30px;
+    transition: 0.3s all;
+}
+
+
+#ichigo h3{
+    position: relative;
+    left:250px ;
+    top: 220px;
+    font-size: 20px;
+    padding-bottom: 30px;
+    color: grey;
+    transition: 0.3s all;
+}
+#ichigo h3:hover{
+    color: #FD4766;
+}
+#ichigo h3::after{
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background: linear-gradient(120deg, #1C99FE 20.7%,  #7644FF 50.19%,#fd4766 80% );
+    transition: width .3s ;
+}
+#ichigo h3:hover::after{
+     width: 100%;
+     transition: width .3s;
+}
+#uryu{
+    position: relative;
+}
+#uryu h2{
+    font-size: 27px;
+    position: relative;
+    left: 400px;
+    top: 220px;
+    padding-bottom: 30px;
+    transition: 0.3s all;
+}
+
+
+#uryu h3{
+    position: relative;
+    left:400px ;
+    top: 220px;
+    font-size: 20px;
+    padding-bottom: 30px;
+    color: grey;
+    transition: 0.3s all;
+}
+#uryu h3:hover{   
+ color: #FD4766;
+}
+#uryu h3::after{
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background: linear-gradient(120deg, #1C99FE 20.7%,  #7644FF 50.19%,#fd4766 80% );
+    transition: width .3s ;
+}
+#uryu h3:hover::after{
+     width: 100%;
+     transition: width .3s;
+}
+hr{
+    width: 90%;
+    position: relative;
+    top: 150px;
+    left: 75px;
+}
+#goku{
+    margin-bottom: 40px;
+}
+#goku .you:hover{
+    transition: 0.4s ease all;
+    transform: scale(1.1);
+}
+#goku .me:hover{
+    transition: 0.4s ease all;
+    transform: scale(1.1);
+}
+#goku .hum:hover{
+    transition: 0.4s ease all;
+    transform: scale(1.1);
+}
+#goku .tum:hover{
+    transition: 0.4s ease all;
+    transform: scale(1.1);
+}
+#goku .hatt:hover{
+    transition: 0.4s ease all;
+    transform: scale(1.1);
+}
+#vegeta .yum:hover{
+    transition: 0.4s ease all;
+    transform: scale(1.1);
+}
+#vegeta .gum:hover{
+    transition: 0.4s ease all;
+    transform: scale(1.1);
+}
+#vegeta .sum:hover{
+    transition: 0.4s ease all;
+    transform: scale(1.1);
+}
+#vegeta .lum:hover{
+    transition: 0.4s ease all;
+    transform: scale(1.1);
+}
+#jaadu {
+width: 50%;
+position: relative;
+}
+#jaadu img{
+    border-radius: 3%;
+   position: relative;
+   left: 900px;
+   bottom: 150px;
+    margin-right: 35px;
+    
+    margin-bottom: 40px;
+}
+
+#jaadu p{
+    width: 100%;
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    left: 100px;
+    top: 250px;
+}
+#jaadu h6{
+    font-size: 23px;
+    position: relative;
+    top: 280px;
+    left: 100px;
+}
+
